@@ -1,6 +1,7 @@
 /**
  * 条码参考库预处理
  *
+ * 原始商品数据参考：https://gitcode.com/open-source-toolkit/3cb8d
  * 输入：data/raw/barcodes.csv
  * 输出：
  *   - data/processed/full/barcodes.jsonl  （全量，gitignore）

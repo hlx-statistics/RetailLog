@@ -237,7 +237,7 @@ watch(
 <template>
   <div class="page">
     <header class="page-header">
-      <h1 class="page-title">零售日志</h1>
+      <h1 class="page-title">乡程掌柜</h1>
       <div class="header-actions">
         <button class="btn btn-icon primary" @click="openAddScan">📷 扫码添加</button>
         <button class="btn btn-icon" @click="openAdd">➕ 手动添加</button>

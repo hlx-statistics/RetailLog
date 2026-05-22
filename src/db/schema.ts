@@ -1,7 +1,7 @@
 import type { DBSchema } from 'idb'
 import type { Category, Goods, SaleRecord, StockLog } from '@/types'
 
-export interface RetailLogDB extends DBSchema {
+export interface RuralKeeperDB extends DBSchema {
   goods: {
     key: string
     value: Goods

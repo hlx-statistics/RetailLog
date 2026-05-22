@@ -1,4 +1,4 @@
-package com.retaillog.app;
+package com.ruralkeeper.app;
 
 import com.getcapacitor.BridgeActivity;
 

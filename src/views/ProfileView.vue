@@ -133,7 +133,7 @@ const displaySales = computed(() => store.sales.slice(0, MAX_SALE_RECORDS_DISPLA
       </div>
     </section>
 
-    <p class="footer-note">零售日志 · 离线本地版</p>
+    <p class="footer-note">乡程掌柜 · 离线本地版</p>
   </div>
 </template>
 

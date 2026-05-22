@@ -270,7 +270,7 @@ const shifted = shiftTimestamps(sales, goodsOut)
 
 const backup = {
   version: 2,
-  app: 'RetailLog',
+  app: 'RuralKeeper',
   date: new Date().toISOString(),
   categories,
   goods: shifted.goods,

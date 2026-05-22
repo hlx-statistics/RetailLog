@@ -1,4 +1,4 @@
-export const DB_NAME = 'RetailLogDB'
+export const DB_NAME = 'RuralKeeperDB'
 export const DB_VERSION = 1
 
 export const SCAN_DEBOUNCE_MS = 1000

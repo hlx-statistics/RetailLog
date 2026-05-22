@@ -19,7 +19,7 @@ export const backupService = {
   async exportData(): Promise<{ blob: Blob; filename: string }> {
     const backup: BackupData = {
       version: BACKUP_VERSION,
-      app: 'RetailLog',
+      app: 'RuralKeeper',
       date: new Date().toISOString(),
       goods: await goodsRepository.getAll(),
       categories: await categoriesRepository.getAll(),
@@ -42,7 +42,7 @@ export const backupService = {
         directory: Directory.Cache,
       })
       await Share.share({
-        title: '零售日志数据备份',
+        title: '乡程掌柜数据备份',
         files: [written.uri],
         dialogTitle: '保存备份到手机',
       })

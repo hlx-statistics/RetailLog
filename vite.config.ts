@@ -15,9 +15,9 @@ export default defineConfig(({ mode }) => {
         registerType: 'autoUpdate',
         includeAssets: ['favicon.svg'],
         manifest: {
-          name: '零售日志',
-          short_name: '零售日志',
-          description: '轻量离线零售商品与销售管理',
+          name: '乡程掌柜',
+          short_name: '乡程掌柜',
+          description: '轻量离线乡村商铺商品与销售管理',
           theme_color: '#2b5e3b',
           background_color: '#f5f7fb',
           display: 'standalone',

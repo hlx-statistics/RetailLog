@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">零售日志</string>
-    <string name="title_activity_main">零售日志</string>
-    <string name="package_name">com.retaillog.app</string>
-    <string name="custom_url_scheme">com.retaillog.app</string>
+    <string name="app_name">乡程掌柜</string>
+    <string name="title_activity_main">乡程掌柜</string>
+    <string name="package_name">com.ruralkeeper.app</string>
+    <string name="custom_url_scheme">com.ruralkeeper.app</string>
 </resources>

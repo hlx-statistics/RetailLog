@@ -1,13 +1,13 @@
 import { openDB, type IDBPDatabase } from 'idb'
 import { DB_NAME, DB_VERSION } from '@/constants'
-import type { RetailLogDB } from './schema'
+import type { RuralKeeperDB } from './schema'
 
-let dbInstance: IDBPDatabase<RetailLogDB> | null = null
+let dbInstance: IDBPDatabase<RuralKeeperDB> | null = null
 
-export async function getDb(): Promise<IDBPDatabase<RetailLogDB>> {
+export async function getDb(): Promise<IDBPDatabase<RuralKeeperDB>> {
   if (dbInstance) return dbInstance
 
-  dbInstance = await openDB<RetailLogDB>(DB_NAME, DB_VERSION, {
+  dbInstance = await openDB<RuralKeeperDB>(DB_NAME, DB_VERSION, {
     upgrade(db) {
       if (!db.objectStoreNames.contains('goods')) {
         const goodsStore = db.createObjectStore('goods', { keyPath: 'id' })

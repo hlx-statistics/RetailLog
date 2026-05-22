@@ -1,9 +1,21 @@
-# RetailLog · 零售日志
+# RuralKeeper · 乡程掌柜
 
 [![Release](https://img.shields.io/github/v/release/hlx-statistics/RetailLog?label=release)](https://github.com/hlx-statistics/RetailLog/releases/latest)
 [![License](https://img.shields.io/github/license/hlx-statistics/RetailLog)](https://github.com/hlx-statistics/RetailLog/blob/main/LICENSE)
 
-轻量、离线的移动端零售商品与销售管理应用，面向便利店、杂货店等小商铺。用手机摄像头扫码建档、连续扫码凑单结账，数据保存在本机，无需服务器。
+**乡程掌柜（RuralKeeper）** 是一款轻量、离线的移动端乡村商铺商品与销售管理应用。用手机摄像头扫码建档、连续扫码凑单结账，数据保存在本机，无需服务器。
+
+## 活动说明
+
+本产品为参加 **数智乡建黑客松** 活动而开发。感谢活动组织方与相关支持单位提供平台与资源，使本项目得以完成与展示。
+
+## 商品数据来源
+
+应用内置条码参考库（扫码建档时的名称/规格提示）基于开源商品数据加工而来，原始数据请参考：
+
+**[开源商品数据集（GitCode）](https://gitcode.com/open-source-toolkit/3cb8d)**
+
+本地预处理脚本见 `scripts/barcode-ref/`，原始 CSV 置于 `data/raw/`（不随仓库分发大文件时请自行下载后运行 `npm run build:barcode-ref`）。
 
 **仓库**：[github.com/hlx-statistics/RetailLog](https://github.com/hlx-statistics/RetailLog)
 
@@ -21,14 +33,14 @@
 
 | 方式 | 适用场景 | 获取方式 |
 |------|----------|----------|
-| **Android APK** | 店主日常使用手机（推荐） | [Releases](https://github.com/hlx-statistics/RetailLog/releases) 下载 `RetailLog-*.apk` |
+| **Android APK** | 店主日常使用手机（推荐） | [Releases](https://github.com/hlx-statistics/RetailLog/releases) 下载 `RuralKeeper-*.apk` |
 | **PWA** | 自行部署静态站点 | `npm run build` 后托管 `dist/`，浏览器访问或「添加到主屏幕」 |
 
 > 当前仓库尚未发布安装包。维护者可在 [Releases](https://github.com/hlx-statistics/RetailLog/releases) 创建首个版本（如 `v1.0.0`）并上传 APK；发布后用户可通过 [最新发行版](https://github.com/hlx-statistics/RetailLog/releases/latest) 下载。
 
 ### Android 安装步骤
 
-1. 打开 [最新发行版](https://github.com/hlx-statistics/RetailLog/releases/latest)，在 **Assets** 中下载 APK（例如 `RetailLog-v1.0.0.apk`）
+1. 打开 [最新发行版](https://github.com/hlx-statistics/RetailLog/releases/latest)，在 **Assets** 中下载 APK（例如 `RuralKeeper-v1.0.0.apk`）
 2. 将文件传到手机（微信、网盘、数据线等），点击安装
 3. 若提示「未知来源」，在系统设置中允许该来源安装应用
 
@@ -100,7 +112,7 @@ npm run cap:android   # 用 Android Studio 打开并 Build APK
 ## 项目结构
 
 ```
-RetailLog/
+RetailLog/               # 仓库根目录（GitHub 仓库名）
 ├── src/                 # Vue 应用源码
 ├── public/              # 静态资源
 ├── android/             # Capacitor Android 工程
