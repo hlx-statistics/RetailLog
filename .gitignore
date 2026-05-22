@@ -43,3 +43,9 @@ scripts/fix-goods-form-utf8.py
 scripts/patch-goods-form-modal.py
 
 # android/ 源码应提交；构建产物由 android/.gitignore 与 android/app/.gitignore 忽略
+
+# --- 条码参考库：原始数据与全量中间产物不入库（仓库可保留 lite 与 stats） ---
+data/raw/
+data/processed/full/
+src/db/barcodes.csv
+src/db/barcodes.sql

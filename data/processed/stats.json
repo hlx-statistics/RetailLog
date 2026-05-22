@@ -1,0 +1,20 @@
+{
+  "builtAt": "2026-05-22T15:35:25.755Z",
+  "source": "data\\raw\\barcodes.csv",
+  "sampleLimit": null,
+  "rowsRead": 1048643,
+  "skipped": {
+    "invalidBarcode": 78,
+    "emptyName": 129,
+    "badPrice": 532862
+  },
+  "duplicates": 472,
+  "unique": 515102,
+  "lite": {
+    "maxBytes": 5242880,
+    "count": 61121,
+    "bytes": 3289309,
+    "ratio": 0.118658,
+    "avgTupleBytes": 38.99
+  }
+}
