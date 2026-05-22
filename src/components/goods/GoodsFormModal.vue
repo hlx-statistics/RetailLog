@@ -10,11 +10,17 @@ import { useAppStore } from '@/stores/app.store'
 import { useToast } from '@/composables/useToast'
 import { UNCATEGORIZED_LABEL } from '@/constants'
 import { asFormText } from '@/utils/form-text'
+import { shouldConfirmCloseOnCancel } from '@/utils/goods-form-close'
+import { barcodeRefService } from '@/services/barcode-ref.service'
 
 const props = defineProps<{
   show: boolean
   goods: Goods | null
   presetBarcode?: string
+  /** 参考库预填名称（扫码未命中店主商品时） */
+  presetName?: string
+  /** 参考库预填售价 */
+  presetPrice?: number
   categories: Category[]
 }>()
 
@@ -64,12 +70,25 @@ function captureSnapshot() {
 
 function resetForm() {
   barcode.value = props.goods?.barcode ?? props.presetBarcode ?? ''
-  name.value = props.goods?.name ?? ''
-  price.value = props.goods ? String(props.goods.price) : ''
+  name.value = props.goods?.name ?? props.presetName ?? ''
+  const presetP = props.presetPrice
+  price.value = props.goods
+    ? String(props.goods.price)
+    : presetP != null && Number.isFinite(presetP)
+      ? String(presetP)
+      : ''
   stock.value = props.goods?.stock ?? 0
   category.value = props.goods?.category ?? UNCATEGORIZED_LABEL
   remark.value = props.goods?.remark ?? ''
   captureSnapshot()
+}
+
+async function applyRefFromBarcode(code: string) {
+  if (isEdit.value || !code.trim()) return
+  const ref = barcodeRefService.lookup(code)
+  if (!ref) return
+  if (!name.value.trim()) name.value = ref.name
+  if (!asFormText(price.value)) price.value = String(ref.price)
 }
 
 const isDirty = computed(() => {
@@ -77,11 +96,15 @@ const isDirty = computed(() => {
   return JSON.stringify(formPayload()) !== initialSnapshot.value
 })
 
-/** 扫码/查商品带入新条码时，即使仅预填条码也应二次确认关闭 */
+/** 扫码仅预填条码时需二次确认；参考库已带出名称售价且未改动的可直接关 */
 const shouldConfirmClose = computed(() => {
-  if (isDirty.value) return true
-  if (!isEdit.value && props.presetBarcode?.trim()) return true
-  return false
+  const p = formPayload()
+  return shouldConfirmCloseOnCancel(
+    isDirty.value,
+    isEdit.value,
+    { barcode: p.barcode, name: p.name, price: p.price },
+    Boolean(props.presetBarcode?.trim()),
+  )
 })
 
 watch(
@@ -104,14 +127,24 @@ watch(
 )
 
 watch(
-  () => props.presetBarcode,
-  (code) => {
-    if (props.show && code) {
+  () =>
+    [props.presetBarcode, props.presetName, props.presetPrice, props.show] as const,
+  ([code, presetN, presetP, visible]) => {
+    if (!visible || isEdit.value) return
+    if (code) {
       barcode.value = code
-      if (!isDirty.value) captureSnapshot()
+      void applyRefFromBarcode(code)
     }
+    if (presetN) name.value = presetN
+    if (presetP != null && Number.isFinite(presetP)) price.value = String(presetP)
+    if (!isDirty.value) captureSnapshot()
   },
 )
+
+watch(barcode, (code) => {
+  if (!props.show || isEdit.value) return
+  void applyRefFromBarcode(code)
+})
 
 function requestClose() {
   if (shouldConfirmClose.value) {
@@ -257,7 +290,7 @@ async function confirmRemove() {
       <input v-model="remark" />
     </section>
     <p v-if="!isEdit" class="form-hint">
-      同一款商品共用一条条码；扫码后请补全名称与售价，再点底部「确认保存」
+      同一款商品共用一条条码；未建档时会尝试匹配内置参考库预填名称与售价，请核对后点「确认保存」
     </p>
     <button v-if="isEdit" type="button" class="btn-delete" @click="requestRemove">
       删除商品

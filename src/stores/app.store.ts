@@ -5,6 +5,7 @@ import { categoryService } from '@/services/category.service'
 import { goodsService } from '@/services/goods.service'
 import { saleService } from '@/services/sale.service'
 import { initAppData } from '@/services/backup.service'
+import { barcodeRefService } from '@/services/barcode-ref.service'
 
 export const useAppStore = defineStore('app', () => {
   const ready = ref(false)
@@ -13,7 +14,7 @@ export const useAppStore = defineStore('app', () => {
   const sales = ref<SaleRecord[]>([])
 
   async function bootstrap() {
-    await initAppData()
+    await Promise.all([initAppData(), barcodeRefService.load()])
     await refreshAll()
     ready.value = true
   }

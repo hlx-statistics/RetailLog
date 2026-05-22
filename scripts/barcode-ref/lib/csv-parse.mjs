@@ -51,4 +51,5 @@ export const COL = {
   spec: 3,
   unit: 4,
   price: 5,
+  brand: 6,
 }

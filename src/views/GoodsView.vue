@@ -9,6 +9,7 @@ import AppModal from '@/components/common/AppModal.vue'
 import ScannerView from '@/components/common/ScannerView.vue'
 import { useAppStore } from '@/stores/app.store'
 import { goodsService } from '@/services/goods.service'
+import { barcodeRefService } from '@/services/barcode-ref.service'
 import { stockService } from '@/services/stock.service'
 import { useScanner } from '@/composables/useScanner'
 import { useScanFlash } from '@/composables/useScanFlash'
@@ -30,6 +31,8 @@ const categoryFilter = ref('all')
 const showForm = ref(false)
 const editingGoods = ref<Goods | null>(null)
 const presetBarcode = ref('')
+const presetName = ref('')
+const presetPrice = ref<number | undefined>(undefined)
 const showScan = ref(false)
 const scanIntent = ref<ScanIntent>('add')
 const goodsScanRef = ref<InstanceType<typeof ScannerView> | null>(null)
@@ -56,27 +59,41 @@ const filteredGoods = computed(() =>
   goodsService.filter(store.goods, search.value, categoryFilter.value),
 )
 
+function clearPreset() {
+  presetBarcode.value = ''
+  presetName.value = ''
+  presetPrice.value = undefined
+}
+
 function closeForm() {
   showForm.value = false
-  presetBarcode.value = ''
+  clearPreset()
 }
 
 function openAdd() {
   editingGoods.value = null
-  presetBarcode.value = ''
+  clearPreset()
   showForm.value = true
 }
 
 function openEdit(goods: Goods) {
   editingGoods.value = goods
-  presetBarcode.value = ''
+  clearPreset()
   showForm.value = true
 }
 
-function openAddWithBarcode(barcode: string) {
+async function openAddWithBarcode(barcode: string) {
   editingGoods.value = null
   presetBarcode.value = barcode
+  const ref = barcodeRefService.lookup(barcode)
+  presetName.value = ref?.name ?? ''
+  presetPrice.value = ref?.price
   showForm.value = true
+  if (ref) {
+    show(`已匹配参考库，请核对售价后保存`)
+  } else {
+    show('已识别条码，请补全商品信息')
+  }
 }
 
 function openScan(intent: ScanIntent) {
@@ -164,7 +181,16 @@ async function handleScanBarcode(barcode: string) {
 
   if (intent === 'form') {
     presetBarcode.value = barcode
-    show(`已填入条码：${barcode}`)
+    const ref = barcodeRefService.lookup(barcode)
+    if (ref) {
+      presetName.value = ref.name
+      presetPrice.value = ref.price
+      show(`已填入条码，并匹配参考库`)
+    } else {
+      presetName.value = ''
+      presetPrice.value = undefined
+      show(`已填入条码：${barcode}`)
+    }
     return
   }
 
@@ -176,8 +202,7 @@ async function handleScanBarcode(barcode: string) {
       if (edit) openEdit(goods)
       else openAddScan()
     } else {
-      openAddWithBarcode(barcode)
-      show('已识别条码，请补全商品信息')
+      await openAddWithBarcode(barcode)
     }
     return
   }
@@ -191,7 +216,7 @@ async function handleScanBarcode(barcode: string) {
     else openGoodsScanModal()
   } else {
     const addNew = confirm(`未找到条码 ${barcode}\n是否添加新商品？`)
-    if (addNew) openAddWithBarcode(barcode)
+    if (addNew) await openAddWithBarcode(barcode)
   }
 }
 
@@ -203,7 +228,7 @@ function manualScanInput() {
 watch(
   () => route.query.barcode,
   (code) => {
-    if (typeof code === 'string' && code) openAddWithBarcode(code)
+    if (typeof code === 'string' && code) void openAddWithBarcode(code)
   },
   { immediate: true },
 )
@@ -252,6 +277,8 @@ watch(
       :show="showForm"
       :goods="editingGoods"
       :preset-barcode="presetBarcode"
+      :preset-name="presetName"
+      :preset-price="presetPrice"
       :categories="store.categories"
       @close="closeForm"
       @saved="onFormSaved"

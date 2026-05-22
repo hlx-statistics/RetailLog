@@ -2,6 +2,7 @@
  * 商品表单关键逻辑回归（node scripts/test-goods-form-logic.mjs）
  */
 import { asFormText } from '../src/utils/form-text.ts'
+import { shouldConfirmCloseOnCancel } from '../src/utils/goods-form-close.ts'
 
 function assert(cond, msg) {
   if (!cond) throw new Error(msg)
@@ -26,12 +27,6 @@ assert(threw, 'number.trim should throw (documents root cause)')
 function isDirty(snapshot, payload) {
   return JSON.stringify(payload) !== snapshot
 }
-function shouldConfirmClose(dirty, isEdit, presetBarcode) {
-  if (dirty) return true
-  if (!isEdit && presetBarcode?.trim()) return true
-  return false
-}
-
 const presetOnly = {
   barcode: '690123',
   name: '',
@@ -43,12 +38,34 @@ const presetOnly = {
 const snap = JSON.stringify(presetOnly)
 assert(!isDirty(snap, presetOnly), 'preset only not dirty')
 assert(
-  shouldConfirmClose(false, false, '690123'),
-  'preset barcode session needs confirm on close',
+  shouldConfirmCloseOnCancel(
+    false,
+    false,
+    { barcode: '690123', name: '', price: '' },
+    true,
+  ),
+  'barcode-only needs confirm on close',
 )
 
 const filled = { ...presetOnly, name: '可乐', price: '3.5' }
 assert(isDirty(snap, filled), 'filled form is dirty')
-assert(shouldConfirmClose(true, false, '690123'), 'dirty form needs confirm')
+assert(
+  shouldConfirmCloseOnCancel(
+    true,
+    false,
+    { barcode: '690123', name: '可乐', price: '3.5' },
+    true,
+  ),
+  'dirty form needs confirm',
+)
+assert(
+  !shouldConfirmCloseOnCancel(
+    false,
+    false,
+    { barcode: '690123', name: '可乐', price: '3.5' },
+    true,
+  ),
+  'ref prefilled unchanged no confirm',
+)
 
 console.log('OK: goods form logic tests passed')

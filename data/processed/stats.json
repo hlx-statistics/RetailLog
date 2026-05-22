@@ -1,5 +1,5 @@
 {
-  "builtAt": "2026-05-22T15:35:25.755Z",
+  "builtAt": "2026-05-22T15:54:57.529Z",
   "source": "data\\raw\\barcodes.csv",
   "sampleLimit": null,
   "rowsRead": 1048643,
@@ -12,9 +12,10 @@
   "unique": 515102,
   "lite": {
     "maxBytes": 5242880,
-    "count": 61121,
-    "bytes": 3289309,
-    "ratio": 0.118658,
-    "avgTupleBytes": 38.99
+    "count": 97415,
+    "bytes": 5240479,
+    "ratio": 0.189118,
+    "sampling": "stratified-prefix-3",
+    "probe6921168520015": false
   }
 }
