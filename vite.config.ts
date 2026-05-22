@@ -1,7 +1,25 @@
+import fs from 'node:fs'
+import path from 'node:path'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import { VitePWA } from 'vite-plugin-pwa'
 import { fileURLToPath, URL } from 'node:url'
+
+/** 正式构建产物不包含演示备份，减小 APK / PWA 体积 */
+function excludeDemoBackupFromDist() {
+  return {
+    name: 'exclude-demo-backup-from-dist',
+    apply: 'build' as const,
+    closeBundle() {
+      const file = path.resolve('dist/demo-backup.json')
+      try {
+        fs.unlinkSync(file)
+      } catch {
+        /* 无演示文件时忽略 */
+      }
+    },
+  }
+}
 
 export default defineConfig(({ mode }) => {
   const forNative = mode === 'capacitor'
@@ -10,6 +28,7 @@ export default defineConfig(({ mode }) => {
     base: forNative ? './' : '/',
     plugins: [
       vue(),
+      excludeDemoBackupFromDist(),
       VitePWA({
         disable: forNative,
         registerType: 'autoUpdate',

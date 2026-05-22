@@ -12,6 +12,7 @@ import { blobToBase64 } from '@/utils/blob'
 import { backupFileName } from '@/utils/format'
 import { createId } from '@/utils/id'
 import { isNativeApp } from '@/utils/platform'
+import { USE_DEMO_DATA } from '@/constants'
 
 const BACKUP_VERSION = 2
 
@@ -152,6 +153,15 @@ async function seedSampleGoods(): Promise<void> {
 }
 
 export async function initAppData(): Promise<void> {
+  if (USE_DEMO_DATA) {
+    try {
+      await backupService.loadDemoBackup()
+      return
+    } catch {
+      /* demo-backup.json 缺失时回退种子数据 */
+    }
+  }
+
   await categoryService.initDefaults()
   const goods = await goodsService.list()
   if (goods.length === 0) {

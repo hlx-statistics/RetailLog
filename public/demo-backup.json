@@ -1,7 +1,7 @@
 {
   "version": 2,
   "app": "RuralKeeper",
-  "date": "2026-05-22T16:33:55.586Z",
+  "date": "2026-05-22T17:16:06.668Z",
   "categories": [
     {
       "id": "cat-food",
@@ -22,7 +22,7 @@
   ],
   "goods": [
     {
-      "id": "5ee60e21-a06d-4784-a4e9-c58017bf88f6",
+      "id": "696804b2-c0fa-4df6-92a3-298be6d0c565",
       "barcode": "6921168509256",
       "name": "农夫山泉 550ml",
       "price": 2,
@@ -30,22 +30,22 @@
       "stock": 3,
       "category": "饮料",
       "remark": "演示：数量榜靠前 + 建议补货",
-      "createdAt": 1769081635586,
-      "updatedAt": 1779359635586
+      "createdAt": 1769084166668,
+      "updatedAt": 1779362166668
     },
     {
-      "id": "ba8f5013-141a-4e58-9fe5-938f14bb8f88",
+      "id": "dd84e414-cadd-4a4d-83c3-872d3eead8c8",
       "barcode": "6901939621298",
       "name": "可口可乐 330ml",
       "price": 3.5,
       "cost": 2.4,
       "stock": 18,
       "category": "饮料",
-      "createdAt": 1769081635586,
-      "updatedAt": 1779359635586
+      "createdAt": 1769084166668,
+      "updatedAt": 1779362166668
     },
     {
-      "id": "c37e27ce-3717-4311-8136-fe5e30f9d67c",
+      "id": "164db0ee-5eba-4036-b4a5-43ae53e4ceb5",
       "barcode": "6920152467899",
       "name": "康师傅红烧牛肉面",
       "price": 4.5,
@@ -53,33 +53,33 @@
       "stock": 4,
       "category": "食品",
       "remark": "演示：有销量且库存偏低",
-      "createdAt": 1769081635586,
-      "updatedAt": 1779359635586
+      "createdAt": 1769084166668,
+      "updatedAt": 1779362166668
     },
     {
-      "id": "3c9ac303-b4aa-48ad-9181-600955e0ec22",
+      "id": "2703a3ec-7bf9-404b-a151-5e96677d6a4e",
       "barcode": "6901939610148",
       "name": "双汇火腿肠 40g",
       "price": 2.5,
       "cost": 1.8,
       "stock": 22,
       "category": "食品",
-      "createdAt": 1769081635586,
-      "updatedAt": 1779359635586
+      "createdAt": 1769084166668,
+      "updatedAt": 1779362166668
     },
     {
-      "id": "99f97d86-85be-42de-b57e-0a6bb3022976",
+      "id": "1deadda0-965a-41fe-a037-3c0090fe4991",
       "barcode": "6901668936422",
       "name": "奥利奥原味 116g",
       "price": 8.9,
       "cost": 6.5,
       "stock": 9,
       "category": "食品",
-      "createdAt": 1769081635586,
-      "updatedAt": 1779359635586
+      "createdAt": 1769084166668,
+      "updatedAt": 1779362166668
     },
     {
-      "id": "fa80a1b4-0fac-429d-847d-0d4bf9715cbe",
+      "id": "4b622f88-6df0-4ffb-b73e-585c1fbae0d8",
       "barcode": "6902952888888",
       "name": "飞天茅台 53度 500ml",
       "price": 1499,
@@ -87,11 +87,11 @@
       "stock": 2,
       "category": "其他",
       "remark": "演示：金额榜靠前",
-      "createdAt": 1769081635586,
-      "updatedAt": 1779359635586
+      "createdAt": 1769084166668,
+      "updatedAt": 1779362166668
     },
     {
-      "id": "ceb41f08-21fa-4caa-8b7d-0a626857853a",
+      "id": "f7903720-3b16-4759-96db-e9c9ea1751d3",
       "barcode": "6901028196463",
       "name": "中华香烟 软包",
       "price": 65,
@@ -99,22 +99,22 @@
       "stock": 6,
       "category": "其他",
       "remark": "演示：金额榜（单价高）",
-      "createdAt": 1769081635586,
-      "updatedAt": 1779359635586
+      "createdAt": 1769084166668,
+      "updatedAt": 1779362166668
     },
     {
-      "id": "7cde3780-53bf-462a-85f9-d387dff70c56",
+      "id": "b70c493a-f724-44ba-a279-e8c0a96dc192",
       "barcode": "6972183820126",
       "name": "清风抽纸 3包",
       "price": 9.9,
       "cost": 7,
       "stock": 11,
       "category": "日用品",
-      "createdAt": 1769081635586,
-      "updatedAt": 1779359635586
+      "createdAt": 1769084166668,
+      "updatedAt": 1779362166668
     },
     {
-      "id": "21d082f6-7646-4048-b2e0-1f3d559fa520",
+      "id": "1765bfca-608b-4195-8fa0-a277eb448ebe",
       "barcode": "6901234567891",
       "name": "舒肤佳香皂 115g",
       "price": 5.5,
@@ -122,11 +122,11 @@
       "stock": 4,
       "category": "日用品",
       "remark": "演示：建议补货",
-      "createdAt": 1769081635586,
-      "updatedAt": 1779359635586
+      "createdAt": 1769084166668,
+      "updatedAt": 1779362166668
     },
     {
-      "id": "d801ddf2-2190-4d11-a9ca-7bdd152c5294",
+      "id": "10e26909-f134-4369-8ec4-1ccd46b8907e",
       "barcode": "6901234567892",
       "name": "老派苏打饼干 400g",
       "price": 6.5,
@@ -134,11 +134,11 @@
       "stock": 7,
       "category": "食品",
       "remark": "演示：60天+未售出 → 查保质期",
-      "createdAt": 1769081635586,
-      "updatedAt": 1779359635586
+      "createdAt": 1769084166668,
+      "updatedAt": 1779362166668
     },
     {
-      "id": "023d457e-8ca4-4111-82e6-710af43c0f65",
+      "id": "eb8b7ed8-eccb-43ee-802b-ab5d24ca2935",
       "barcode": "6901234567893",
       "name": "进口榛子巧克力 200g",
       "price": 28,
@@ -146,11 +146,11 @@
       "stock": 12,
       "category": "食品",
       "remark": "演示：从未售出 → 查保质期",
-      "createdAt": 1769081635586,
-      "updatedAt": 1779359635586
+      "createdAt": 1769084166668,
+      "updatedAt": 1779362166668
     },
     {
-      "id": "394c9828-6ee1-456d-9c25-455757648252",
+      "id": "0c53ae02-8348-44c7-8fb2-b748fc9b9a57",
       "barcode": "6901234567894",
       "name": "电解质饮料 500ml",
       "price": 5,
@@ -158,16 +158,16 @@
       "stock": 0,
       "category": "饮料",
       "remark": "演示：零库存不进经营榜",
-      "createdAt": 1769081635586,
-      "updatedAt": 1779359635586
+      "createdAt": 1769084166668,
+      "updatedAt": 1779362166668
     }
   ],
   "sales": [
     {
-      "id": "5fe10932-a345-4fce-aa9c-a61bdd18f431",
+      "id": "13d431a3-419d-4606-9ef9-92d72aca90a2",
       "items": [
         {
-          "goodsId": "3c9ac303-b4aa-48ad-9181-600955e0ec22",
+          "goodsId": "2703a3ec-7bf9-404b-a151-5e96677d6a4e",
           "barcode": "6901939610148",
           "name": "双汇火腿肠 40g",
           "price": 2.5,
@@ -176,20 +176,20 @@
       ],
       "totalQty": 2,
       "totalAmount": 5,
-      "createdAt": 1779474835586
+      "createdAt": 1779477366668
     },
     {
-      "id": "3f3f294a-fe40-4c30-bf8d-4fae4f18227c",
+      "id": "4546c086-dc82-4688-a048-4cc838d5f7bb",
       "items": [
         {
-          "goodsId": "5ee60e21-a06d-4784-a4e9-c58017bf88f6",
+          "goodsId": "696804b2-c0fa-4df6-92a3-298be6d0c565",
           "barcode": "6921168509256",
           "name": "农夫山泉 550ml",
           "price": 2,
           "quantity": 2
         },
         {
-          "goodsId": "ba8f5013-141a-4e58-9fe5-938f14bb8f88",
+          "goodsId": "dd84e414-cadd-4a4d-83c3-872d3eead8c8",
           "barcode": "6901939621298",
           "name": "可口可乐 330ml",
           "price": 3.5,
@@ -198,13 +198,13 @@
       ],
       "totalQty": 3,
       "totalAmount": 7.5,
-      "createdAt": 1779456835586
+      "createdAt": 1779459366668
     },
     {
-      "id": "8c7ef928-4e12-47d1-8895-4c3b723fa113",
+      "id": "ccb43e20-ed46-4e2b-b51d-da0019c1f777",
       "items": [
         {
-          "goodsId": "394c9828-6ee1-456d-9c25-455757648252",
+          "goodsId": "0c53ae02-8348-44c7-8fb2-b748fc9b9a57",
           "barcode": "6901234567894",
           "name": "电解质饮料 500ml",
           "price": 5,
@@ -213,13 +213,13 @@
       ],
       "totalQty": 3,
       "totalAmount": 15,
-      "createdAt": 1779453235586
+      "createdAt": 1779455766668
     },
     {
-      "id": "a14b5f92-11e9-4911-ba24-62bf2af242d1",
+      "id": "4c34757c-d0fc-4318-82d5-855a44d94de6",
       "items": [
         {
-          "goodsId": "5ee60e21-a06d-4784-a4e9-c58017bf88f6",
+          "goodsId": "696804b2-c0fa-4df6-92a3-298be6d0c565",
           "barcode": "6921168509256",
           "name": "农夫山泉 550ml",
           "price": 2,
@@ -228,13 +228,13 @@
       ],
       "totalQty": 4,
       "totalAmount": 8,
-      "createdAt": 1779449635586
+      "createdAt": 1779452166668
     },
     {
-      "id": "ef521cde-bec7-42fa-a0ff-17a76f2de630",
+      "id": "cf773ddd-5657-4f7e-b982-c9d91638bb08",
       "items": [
         {
-          "goodsId": "ceb41f08-21fa-4caa-8b7d-0a626857853a",
+          "goodsId": "f7903720-3b16-4759-96db-e9c9ea1751d3",
           "barcode": "6901028196463",
           "name": "中华香烟 软包",
           "price": 65,
@@ -243,13 +243,13 @@
       ],
       "totalQty": 2,
       "totalAmount": 130,
-      "createdAt": 1779402835586
+      "createdAt": 1779405366668
     },
     {
-      "id": "e1058503-aada-4654-88ae-afdfdc143add",
+      "id": "75cf9571-c784-4aac-b85a-d08b0e17b768",
       "items": [
         {
-          "goodsId": "c37e27ce-3717-4311-8136-fe5e30f9d67c",
+          "goodsId": "164db0ee-5eba-4036-b4a5-43ae53e4ceb5",
           "barcode": "6920152467899",
           "name": "康师傅红烧牛肉面",
           "price": 4.5,
@@ -258,13 +258,13 @@
       ],
       "totalQty": 3,
       "totalAmount": 13.5,
-      "createdAt": 1779381235586
+      "createdAt": 1779383766668
     },
     {
-      "id": "c6d64b99-40e3-4581-a86d-9dd5e5170a18",
+      "id": "a3ae3927-162a-491e-8bbe-94764fe50447",
       "items": [
         {
-          "goodsId": "fa80a1b4-0fac-429d-847d-0d4bf9715cbe",
+          "goodsId": "4b622f88-6df0-4ffb-b73e-585c1fbae0d8",
           "barcode": "6902952888888",
           "name": "飞天茅台 53度 500ml",
           "price": 1499,
@@ -273,13 +273,13 @@
       ],
       "totalQty": 1,
       "totalAmount": 1499,
-      "createdAt": 1779316435586
+      "createdAt": 1779318966668
     },
     {
-      "id": "49b2e098-199d-452f-9e30-fa72d446cff9",
+      "id": "bdc635f4-08bd-4654-a458-65fdcd557c4d",
       "items": [
         {
-          "goodsId": "21d082f6-7646-4048-b2e0-1f3d559fa520",
+          "goodsId": "1765bfca-608b-4195-8fa0-a277eb448ebe",
           "barcode": "6901234567891",
           "name": "舒肤佳香皂 115g",
           "price": 5.5,
@@ -288,13 +288,13 @@
       ],
       "totalQty": 1,
       "totalAmount": 5.5,
-      "createdAt": 1779309235586
+      "createdAt": 1779311766668
     },
     {
-      "id": "073adfe1-6717-448a-ac24-b748f176be88",
+      "id": "9391edca-4294-406e-8a50-a328e443b4d3",
       "items": [
         {
-          "goodsId": "5ee60e21-a06d-4784-a4e9-c58017bf88f6",
+          "goodsId": "696804b2-c0fa-4df6-92a3-298be6d0c565",
           "barcode": "6921168509256",
           "name": "农夫山泉 550ml",
           "price": 2,
@@ -303,13 +303,13 @@
       ],
       "totalQty": 6,
       "totalAmount": 12,
-      "createdAt": 1779284035586
+      "createdAt": 1779286566668
     },
     {
-      "id": "b9fa5b00-b20b-4160-94ae-0848f922be29",
+      "id": "4c87ff4b-2857-4b97-9765-93c9ce8b481d",
       "items": [
         {
-          "goodsId": "394c9828-6ee1-456d-9c25-455757648252",
+          "goodsId": "0c53ae02-8348-44c7-8fb2-b748fc9b9a57",
           "barcode": "6901234567894",
           "name": "电解质饮料 500ml",
           "price": 5,
@@ -318,13 +318,13 @@
       ],
       "totalQty": 3,
       "totalAmount": 15,
-      "createdAt": 1779280435586
+      "createdAt": 1779282966668
     },
     {
-      "id": "316da987-4dd7-4275-b29d-14dee040a7a2",
+      "id": "7388bc11-dd09-47b6-bc3a-c28e43820ccf",
       "items": [
         {
-          "goodsId": "99f97d86-85be-42de-b57e-0a6bb3022976",
+          "goodsId": "1deadda0-965a-41fe-a037-3c0090fe4991",
           "barcode": "6901668936422",
           "name": "奥利奥原味 116g",
           "price": 8.9,
@@ -333,13 +333,13 @@
       ],
       "totalQty": 1,
       "totalAmount": 8.9,
-      "createdAt": 1779212035586
+      "createdAt": 1779214566668
     },
     {
-      "id": "8eb7bc7b-c9e4-4e04-8713-398307f9b1eb",
+      "id": "14b57ffa-5c87-414c-a39a-2e0bd069015b",
       "items": [
         {
-          "goodsId": "c37e27ce-3717-4311-8136-fe5e30f9d67c",
+          "goodsId": "164db0ee-5eba-4036-b4a5-43ae53e4ceb5",
           "barcode": "6920152467899",
           "name": "康师傅红烧牛肉面",
           "price": 4.5,
@@ -348,20 +348,20 @@
       ],
       "totalQty": 2,
       "totalAmount": 9,
-      "createdAt": 1779208435586
+      "createdAt": 1779210966668
     },
     {
-      "id": "0adb61bc-3016-45e5-ba7b-bafb8176a657",
+      "id": "58e00771-efb6-4f74-931f-a285cdc93c64",
       "items": [
         {
-          "goodsId": "5ee60e21-a06d-4784-a4e9-c58017bf88f6",
+          "goodsId": "696804b2-c0fa-4df6-92a3-298be6d0c565",
           "barcode": "6921168509256",
           "name": "农夫山泉 550ml",
           "price": 2,
           "quantity": 2
         },
         {
-          "goodsId": "ba8f5013-141a-4e58-9fe5-938f14bb8f88",
+          "goodsId": "dd84e414-cadd-4a4d-83c3-872d3eead8c8",
           "barcode": "6901939621298",
           "name": "可口可乐 330ml",
           "price": 3.5,
@@ -370,13 +370,13 @@
       ],
       "totalQty": 4,
       "totalAmount": 11,
-      "createdAt": 1779197635586
+      "createdAt": 1779200166668
     },
     {
-      "id": "b4f2e6a0-470d-4f7e-aa43-dbac6d00f7d2",
+      "id": "3e41ce04-2449-45ca-b9b0-f97ba7e7bc75",
       "items": [
         {
-          "goodsId": "ceb41f08-21fa-4caa-8b7d-0a626857853a",
+          "goodsId": "f7903720-3b16-4759-96db-e9c9ea1751d3",
           "barcode": "6901028196463",
           "name": "中华香烟 软包",
           "price": 65,
@@ -385,13 +385,13 @@
       ],
       "totalQty": 1,
       "totalAmount": 65,
-      "createdAt": 1779143635586
+      "createdAt": 1779146166668
     },
     {
-      "id": "6089ca95-c906-40bd-af70-0d9b8778c6a6",
+      "id": "7f7acf5c-b340-43b7-b2fe-e31f6359d4d9",
       "items": [
         {
-          "goodsId": "3c9ac303-b4aa-48ad-9181-600955e0ec22",
+          "goodsId": "2703a3ec-7bf9-404b-a151-5e96677d6a4e",
           "barcode": "6901939610148",
           "name": "双汇火腿肠 40g",
           "price": 2.5,
@@ -400,13 +400,13 @@
       ],
       "totalQty": 2,
       "totalAmount": 5,
-      "createdAt": 1779129235586
+      "createdAt": 1779131766668
     },
     {
-      "id": "9a366944-57a7-44c9-9306-ca34dacaa013",
+      "id": "d02ef682-80a3-4719-97c5-2f21f7fd55b3",
       "items": [
         {
-          "goodsId": "5ee60e21-a06d-4784-a4e9-c58017bf88f6",
+          "goodsId": "696804b2-c0fa-4df6-92a3-298be6d0c565",
           "barcode": "6921168509256",
           "name": "农夫山泉 550ml",
           "price": 2,
@@ -415,13 +415,13 @@
       ],
       "totalQty": 4,
       "totalAmount": 8,
-      "createdAt": 1779118435586
+      "createdAt": 1779120966668
     },
     {
-      "id": "333b23f0-d258-4284-9864-2d2688f4911d",
+      "id": "6609e394-0a8d-4346-98c4-d8b8311ef97f",
       "items": [
         {
-          "goodsId": "7cde3780-53bf-462a-85f9-d387dff70c56",
+          "goodsId": "b70c493a-f724-44ba-a279-e8c0a96dc192",
           "barcode": "6972183820126",
           "name": "清风抽纸 3包",
           "price": 9.9,
@@ -430,13 +430,13 @@
       ],
       "totalQty": 1,
       "totalAmount": 9.9,
-      "createdAt": 1779118435586
+      "createdAt": 1779120966668
     },
     {
-      "id": "852c87be-058d-4a81-81fe-e18644192859",
+      "id": "e4e01be8-fcfb-4096-a64a-cfe107e1dbd0",
       "items": [
         {
-          "goodsId": "394c9828-6ee1-456d-9c25-455757648252",
+          "goodsId": "0c53ae02-8348-44c7-8fb2-b748fc9b9a57",
           "barcode": "6901234567894",
           "name": "电解质饮料 500ml",
           "price": 5,
@@ -445,13 +445,13 @@
       ],
       "totalQty": 3,
       "totalAmount": 15,
-      "createdAt": 1779107635586
+      "createdAt": 1779110166668
     },
     {
-      "id": "02ef921a-7556-4fce-80bc-5e16cc9938bd",
+      "id": "bebdf391-8d95-4634-9d90-4d8d45033900",
       "items": [
         {
-          "goodsId": "21d082f6-7646-4048-b2e0-1f3d559fa520",
+          "goodsId": "1765bfca-608b-4195-8fa0-a277eb448ebe",
           "barcode": "6901234567891",
           "name": "舒肤佳香皂 115g",
           "price": 5.5,
@@ -460,13 +460,13 @@
       ],
       "totalQty": 1,
       "totalAmount": 5.5,
-      "createdAt": 1779050035586
+      "createdAt": 1779052566668
     },
     {
-      "id": "40b9506b-0358-4033-a5cb-34f1f9796092",
+      "id": "dec61353-e3ae-4eb8-9d34-665049a4fd84",
       "items": [
         {
-          "goodsId": "c37e27ce-3717-4311-8136-fe5e30f9d67c",
+          "goodsId": "164db0ee-5eba-4036-b4a5-43ae53e4ceb5",
           "barcode": "6920152467899",
           "name": "康师傅红烧牛肉面",
           "price": 4.5,
@@ -475,20 +475,20 @@
       ],
       "totalQty": 4,
       "totalAmount": 18,
-      "createdAt": 1779035635586
+      "createdAt": 1779038166668
     },
     {
-      "id": "b3406c42-486e-4336-bf56-53f6ffc1e050",
+      "id": "684232e8-9ef8-4bcb-9ff8-15cf20de05c7",
       "items": [
         {
-          "goodsId": "5ee60e21-a06d-4784-a4e9-c58017bf88f6",
+          "goodsId": "696804b2-c0fa-4df6-92a3-298be6d0c565",
           "barcode": "6921168509256",
           "name": "农夫山泉 550ml",
           "price": 2,
           "quantity": 2
         },
         {
-          "goodsId": "ba8f5013-141a-4e58-9fe5-938f14bb8f88",
+          "goodsId": "dd84e414-cadd-4a4d-83c3-872d3eead8c8",
           "barcode": "6901939621298",
           "name": "可口可乐 330ml",
           "price": 3.5,
@@ -497,13 +497,13 @@
       ],
       "totalQty": 3,
       "totalAmount": 7.5,
-      "createdAt": 1778938435586
+      "createdAt": 1778940966668
     },
     {
-      "id": "b584bb45-0952-4986-ae09-67a0e1860baa",
+      "id": "6752e8a4-f37d-47de-a94f-46fd5146ee17",
       "items": [
         {
-          "goodsId": "5ee60e21-a06d-4784-a4e9-c58017bf88f6",
+          "goodsId": "696804b2-c0fa-4df6-92a3-298be6d0c565",
           "barcode": "6921168509256",
           "name": "农夫山泉 550ml",
           "price": 2,
@@ -512,13 +512,13 @@
       ],
       "totalQty": 6,
       "totalAmount": 12,
-      "createdAt": 1778934835586
+      "createdAt": 1778937366668
     },
     {
-      "id": "6e67bc9f-8917-47a9-8ca7-d3f27f033cf9",
+      "id": "9c183b62-8d4c-4698-8172-42956762906a",
       "items": [
         {
-          "goodsId": "394c9828-6ee1-456d-9c25-455757648252",
+          "goodsId": "0c53ae02-8348-44c7-8fb2-b748fc9b9a57",
           "barcode": "6901234567894",
           "name": "电解质饮料 500ml",
           "price": 5,
@@ -527,13 +527,13 @@
       ],
       "totalQty": 3,
       "totalAmount": 15,
-      "createdAt": 1778934835586
+      "createdAt": 1778937366668
     },
     {
-      "id": "ead53d25-3db6-415d-8125-a71d7ac6b367",
+      "id": "f164c24c-06e6-428f-8e61-f162a47f1c97",
       "items": [
         {
-          "goodsId": "ceb41f08-21fa-4caa-8b7d-0a626857853a",
+          "goodsId": "f7903720-3b16-4759-96db-e9c9ea1751d3",
           "barcode": "6901028196463",
           "name": "中华香烟 软包",
           "price": 65,
@@ -542,13 +542,13 @@
       ],
       "totalQty": 2,
       "totalAmount": 130,
-      "createdAt": 1778884435586
+      "createdAt": 1778886966668
     },
     {
-      "id": "b5362dd1-d010-446c-bf09-737d000cad60",
+      "id": "711b30d5-7731-4be5-b73d-cd6f6d266e5a",
       "items": [
         {
-          "goodsId": "c37e27ce-3717-4311-8136-fe5e30f9d67c",
+          "goodsId": "164db0ee-5eba-4036-b4a5-43ae53e4ceb5",
           "barcode": "6920152467899",
           "name": "康师傅红烧牛肉面",
           "price": 4.5,
@@ -557,13 +557,13 @@
       ],
       "totalQty": 3,
       "totalAmount": 13.5,
-      "createdAt": 1778862835586
+      "createdAt": 1778865366668
     },
     {
-      "id": "2818c8bc-e8bd-4168-9b78-87baf6959109",
+      "id": "667d099c-23b7-4054-97bf-7dffd452650c",
       "items": [
         {
-          "goodsId": "fa80a1b4-0fac-429d-847d-0d4bf9715cbe",
+          "goodsId": "4b622f88-6df0-4ffb-b73e-585c1fbae0d8",
           "barcode": "6902952888888",
           "name": "飞天茅台 53度 500ml",
           "price": 1499,
@@ -572,13 +572,13 @@
       ],
       "totalQty": 1,
       "totalAmount": 1499,
-      "createdAt": 1778794435586
+      "createdAt": 1778796966668
     },
     {
-      "id": "bf7e6e64-928f-4f78-87be-11735d4377be",
+      "id": "0b0500b5-deb9-4c39-974b-3eb7df94e2ae",
       "items": [
         {
-          "goodsId": "21d082f6-7646-4048-b2e0-1f3d559fa520",
+          "goodsId": "1765bfca-608b-4195-8fa0-a277eb448ebe",
           "barcode": "6901234567891",
           "name": "舒肤佳香皂 115g",
           "price": 5.5,
@@ -587,13 +587,13 @@
       ],
       "totalQty": 1,
       "totalAmount": 5.5,
-      "createdAt": 1778790835586
+      "createdAt": 1778793366668
     },
     {
-      "id": "513237b6-f0d3-491c-9aa3-0988ba72358f",
+      "id": "6e0b15e5-a8eb-41a1-95d4-8577e451952a",
       "items": [
         {
-          "goodsId": "3c9ac303-b4aa-48ad-9181-600955e0ec22",
+          "goodsId": "2703a3ec-7bf9-404b-a151-5e96677d6a4e",
           "barcode": "6901939610148",
           "name": "双汇火腿肠 40g",
           "price": 2.5,
@@ -602,13 +602,13 @@
       ],
       "totalQty": 2,
       "totalAmount": 5,
-      "createdAt": 1778783635586
+      "createdAt": 1778786166668
     },
     {
-      "id": "22ea68d7-d88e-4632-912c-34fc3ad982e7",
+      "id": "f6dcef02-38f5-4370-bea7-775c8e5e3674",
       "items": [
         {
-          "goodsId": "99f97d86-85be-42de-b57e-0a6bb3022976",
+          "goodsId": "1deadda0-965a-41fe-a037-3c0090fe4991",
           "barcode": "6901668936422",
           "name": "奥利奥原味 116g",
           "price": 8.9,
@@ -617,13 +617,13 @@
       ],
       "totalQty": 1,
       "totalAmount": 8.9,
-      "createdAt": 1778780035586
+      "createdAt": 1778782566668
     },
     {
-      "id": "df25a852-4d5c-4960-9d3c-93c7bb0a8739",
+      "id": "068694cb-6829-4491-903a-1646e90a5bfe",
       "items": [
         {
-          "goodsId": "5ee60e21-a06d-4784-a4e9-c58017bf88f6",
+          "goodsId": "696804b2-c0fa-4df6-92a3-298be6d0c565",
           "barcode": "6921168509256",
           "name": "农夫山泉 550ml",
           "price": 2,
@@ -632,13 +632,13 @@
       ],
       "totalQty": 4,
       "totalAmount": 8,
-      "createdAt": 1778769235586
+      "createdAt": 1778771766668
     },
     {
-      "id": "c217f594-ade1-46de-9339-26dd92f7ddc8",
+      "id": "55081580-9276-4b35-989e-2a1de847fd07",
       "items": [
         {
-          "goodsId": "394c9828-6ee1-456d-9c25-455757648252",
+          "goodsId": "0c53ae02-8348-44c7-8fb2-b748fc9b9a57",
           "barcode": "6901234567894",
           "name": "电解质饮料 500ml",
           "price": 5,
@@ -647,13 +647,13 @@
       ],
       "totalQty": 3,
       "totalAmount": 15,
-      "createdAt": 1778762035586
+      "createdAt": 1778764566668
     },
     {
-      "id": "e682f191-12a0-4c9e-a2bd-30d225dc297c",
+      "id": "c13635fa-864a-4582-8338-08d973b28ea9",
       "items": [
         {
-          "goodsId": "c37e27ce-3717-4311-8136-fe5e30f9d67c",
+          "goodsId": "164db0ee-5eba-4036-b4a5-43ae53e4ceb5",
           "barcode": "6920152467899",
           "name": "康师傅红烧牛肉面",
           "price": 4.5,
@@ -662,20 +662,20 @@
       ],
       "totalQty": 2,
       "totalAmount": 9,
-      "createdAt": 1778690035586
+      "createdAt": 1778692566668
     },
     {
-      "id": "dee25687-acbd-41b6-b3b1-55f723070cae",
+      "id": "83f8efbd-f115-4896-b2f4-590b804713d5",
       "items": [
         {
-          "goodsId": "5ee60e21-a06d-4784-a4e9-c58017bf88f6",
+          "goodsId": "696804b2-c0fa-4df6-92a3-298be6d0c565",
           "barcode": "6921168509256",
           "name": "农夫山泉 550ml",
           "price": 2,
           "quantity": 2
         },
         {
-          "goodsId": "ba8f5013-141a-4e58-9fe5-938f14bb8f88",
+          "goodsId": "dd84e414-cadd-4a4d-83c3-872d3eead8c8",
           "barcode": "6901939621298",
           "name": "可口可乐 330ml",
           "price": 3.5,
@@ -684,13 +684,13 @@
       ],
       "totalQty": 4,
       "totalAmount": 11,
-      "createdAt": 1778679235586
+      "createdAt": 1778681766668
     },
     {
-      "id": "06cbf0ce-ffa1-4c07-8605-9eb4fd384067",
+      "id": "64f6593a-4c7b-4c2a-b353-a17f9c5b08ca",
       "items": [
         {
-          "goodsId": "ceb41f08-21fa-4caa-8b7d-0a626857853a",
+          "goodsId": "f7903720-3b16-4759-96db-e9c9ea1751d3",
           "barcode": "6901028196463",
           "name": "中华香烟 软包",
           "price": 65,
@@ -699,13 +699,13 @@
       ],
       "totalQty": 1,
       "totalAmount": 65,
-      "createdAt": 1778625235586
+      "createdAt": 1778627766668
     },
     {
-      "id": "151563bb-9d49-4514-b55b-ec07fcfed652",
+      "id": "694aa5e2-736f-4712-adcf-068a0794b752",
       "items": [
         {
-          "goodsId": "7cde3780-53bf-462a-85f9-d387dff70c56",
+          "goodsId": "b70c493a-f724-44ba-a279-e8c0a96dc192",
           "barcode": "6972183820126",
           "name": "清风抽纸 3包",
           "price": 9.9,
@@ -714,13 +714,13 @@
       ],
       "totalQty": 1,
       "totalAmount": 9.9,
-      "createdAt": 1778600035586
+      "createdAt": 1778602566668
     },
     {
-      "id": "c587daaa-672a-44b3-9a72-e0cebf1f29c5",
+      "id": "eb68cd0b-46aa-4a81-a8ef-ad1678e9889b",
       "items": [
         {
-          "goodsId": "5ee60e21-a06d-4784-a4e9-c58017bf88f6",
+          "goodsId": "696804b2-c0fa-4df6-92a3-298be6d0c565",
           "barcode": "6921168509256",
           "name": "农夫山泉 550ml",
           "price": 2,
@@ -729,13 +729,13 @@
       ],
       "totalQty": 6,
       "totalAmount": 12,
-      "createdAt": 1778585635586
+      "createdAt": 1778588166668
     },
     {
-      "id": "bb2bac3f-3827-44a5-a754-2b7fa01e4440",
+      "id": "ac70c2e1-094e-4c27-ade8-9c35fc26faaa",
       "items": [
         {
-          "goodsId": "21d082f6-7646-4048-b2e0-1f3d559fa520",
+          "goodsId": "1765bfca-608b-4195-8fa0-a277eb448ebe",
           "barcode": "6901234567891",
           "name": "舒肤佳香皂 115g",
           "price": 5.5,
@@ -744,13 +744,13 @@
       ],
       "totalQty": 1,
       "totalAmount": 5.5,
-      "createdAt": 1778531635586
+      "createdAt": 1778534166668
     },
     {
-      "id": "996c22f5-602f-492c-bcc6-7edd3d47d8d0",
+      "id": "4e0624c6-1e72-4093-987f-4094b409b5a0",
       "items": [
         {
-          "goodsId": "c37e27ce-3717-4311-8136-fe5e30f9d67c",
+          "goodsId": "164db0ee-5eba-4036-b4a5-43ae53e4ceb5",
           "barcode": "6920152467899",
           "name": "康师傅红烧牛肉面",
           "price": 4.5,
@@ -759,13 +759,13 @@
       ],
       "totalQty": 4,
       "totalAmount": 18,
-      "createdAt": 1778517235586
+      "createdAt": 1778519766668
     },
     {
-      "id": "5806ba44-6e44-4a9b-ba87-7fb86088df38",
+      "id": "a0dccf1b-d666-4450-9982-7613876d9a91",
       "items": [
         {
-          "goodsId": "3c9ac303-b4aa-48ad-9181-600955e0ec22",
+          "goodsId": "2703a3ec-7bf9-404b-a151-5e96677d6a4e",
           "barcode": "6901939610148",
           "name": "双汇火腿肠 40g",
           "price": 2.5,
@@ -774,13 +774,13 @@
       ],
       "totalQty": 2,
       "totalAmount": 5,
-      "createdAt": 1778438035586
+      "createdAt": 1778440566668
     },
     {
-      "id": "d9bb32a0-963a-41e8-a9ee-dd73f486e17d",
+      "id": "ec19ad44-42a2-42ef-a9d9-eae11607b19d",
       "items": [
         {
-          "goodsId": "5ee60e21-a06d-4784-a4e9-c58017bf88f6",
+          "goodsId": "696804b2-c0fa-4df6-92a3-298be6d0c565",
           "barcode": "6921168509256",
           "name": "农夫山泉 550ml",
           "price": 2,
@@ -789,20 +789,20 @@
       ],
       "totalQty": 4,
       "totalAmount": 8,
-      "createdAt": 1778420035586
+      "createdAt": 1778422566668
     },
     {
-      "id": "ca435040-4d8e-43d2-a499-9a4b8e938ddf",
+      "id": "00573d3a-8321-4a39-8844-cddee107cb2a",
       "items": [
         {
-          "goodsId": "5ee60e21-a06d-4784-a4e9-c58017bf88f6",
+          "goodsId": "696804b2-c0fa-4df6-92a3-298be6d0c565",
           "barcode": "6921168509256",
           "name": "农夫山泉 550ml",
           "price": 2,
           "quantity": 2
         },
         {
-          "goodsId": "ba8f5013-141a-4e58-9fe5-938f14bb8f88",
+          "goodsId": "dd84e414-cadd-4a4d-83c3-872d3eead8c8",
           "barcode": "6901939621298",
           "name": "可口可乐 330ml",
           "price": 3.5,
@@ -811,13 +811,13 @@
       ],
       "totalQty": 3,
       "totalAmount": 7.5,
-      "createdAt": 1778420035586
+      "createdAt": 1778422566668
     },
     {
-      "id": "625e4640-1866-44b3-a993-1efa71e2d6b2",
+      "id": "989e588c-88fe-4b66-9f10-6558bd96c638",
       "items": [
         {
-          "goodsId": "ceb41f08-21fa-4caa-8b7d-0a626857853a",
+          "goodsId": "f7903720-3b16-4759-96db-e9c9ea1751d3",
           "barcode": "6901028196463",
           "name": "中华香烟 软包",
           "price": 65,
@@ -826,13 +826,13 @@
       ],
       "totalQty": 2,
       "totalAmount": 130,
-      "createdAt": 1778366035586
+      "createdAt": 1778368566668
     },
     {
-      "id": "d666c9e6-14d3-4346-b4df-b6736c96349e",
+      "id": "b2640693-b9fa-4024-9996-478dbf75a89b",
       "items": [
         {
-          "goodsId": "99f97d86-85be-42de-b57e-0a6bb3022976",
+          "goodsId": "1deadda0-965a-41fe-a037-3c0090fe4991",
           "barcode": "6901668936422",
           "name": "奥利奥原味 116g",
           "price": 8.9,
@@ -841,13 +841,13 @@
       ],
       "totalQty": 1,
       "totalAmount": 8.9,
-      "createdAt": 1778348035586
+      "createdAt": 1778350566668
     },
     {
-      "id": "61704ee8-c9cc-442b-bb03-ecbb630f3160",
+      "id": "49bbc070-07e8-428d-bfdd-a580abbddaf8",
       "items": [
         {
-          "goodsId": "c37e27ce-3717-4311-8136-fe5e30f9d67c",
+          "goodsId": "164db0ee-5eba-4036-b4a5-43ae53e4ceb5",
           "barcode": "6920152467899",
           "name": "康师傅红烧牛肉面",
           "price": 4.5,
@@ -856,13 +856,13 @@
       ],
       "totalQty": 3,
       "totalAmount": 13.5,
-      "createdAt": 1778344435586
+      "createdAt": 1778346966668
     },
     {
-      "id": "8f26f0ce-71b5-4581-b478-5813d04ea22c",
+      "id": "b86a8c21-2f20-42ef-8cee-afbfb8f8d710",
       "items": [
         {
-          "goodsId": "21d082f6-7646-4048-b2e0-1f3d559fa520",
+          "goodsId": "1765bfca-608b-4195-8fa0-a277eb448ebe",
           "barcode": "6901234567891",
           "name": "舒肤佳香皂 115g",
           "price": 5.5,
@@ -871,13 +871,13 @@
       ],
       "totalQty": 1,
       "totalAmount": 5.5,
-      "createdAt": 1778272435586
+      "createdAt": 1778274966668
     },
     {
-      "id": "b6d57d76-3dbf-440f-b7f9-a24f274d1a1b",
+      "id": "7ba91a66-9b57-4a23-853c-e8a476ae165c",
       "items": [
         {
-          "goodsId": "5ee60e21-a06d-4784-a4e9-c58017bf88f6",
+          "goodsId": "696804b2-c0fa-4df6-92a3-298be6d0c565",
           "barcode": "6921168509256",
           "name": "农夫山泉 550ml",
           "price": 2,
@@ -886,13 +886,13 @@
       ],
       "totalQty": 6,
       "totalAmount": 12,
-      "createdAt": 1778254435586
+      "createdAt": 1778256966668
     },
     {
-      "id": "7325d06f-9b60-45b4-b768-b988fb357099",
+      "id": "3e1fd711-a04a-41fa-9c5e-8d4137a40888",
       "items": [
         {
-          "goodsId": "c37e27ce-3717-4311-8136-fe5e30f9d67c",
+          "goodsId": "164db0ee-5eba-4036-b4a5-43ae53e4ceb5",
           "barcode": "6920152467899",
           "name": "康师傅红烧牛肉面",
           "price": 4.5,
@@ -901,20 +901,20 @@
       ],
       "totalQty": 2,
       "totalAmount": 9,
-      "createdAt": 1778171635586
+      "createdAt": 1778174166668
     },
     {
-      "id": "6f710999-b056-45f3-a569-d8823700ec04",
+      "id": "89f829f9-a1f3-48e8-a735-5a48795a3d4c",
       "items": [
         {
-          "goodsId": "5ee60e21-a06d-4784-a4e9-c58017bf88f6",
+          "goodsId": "696804b2-c0fa-4df6-92a3-298be6d0c565",
           "barcode": "6921168509256",
           "name": "农夫山泉 550ml",
           "price": 2,
           "quantity": 2
         },
         {
-          "goodsId": "ba8f5013-141a-4e58-9fe5-938f14bb8f88",
+          "goodsId": "dd84e414-cadd-4a4d-83c3-872d3eead8c8",
           "barcode": "6901939621298",
           "name": "可口可乐 330ml",
           "price": 3.5,
@@ -923,13 +923,13 @@
       ],
       "totalQty": 4,
       "totalAmount": 11,
-      "createdAt": 1778160835586
+      "createdAt": 1778163366668
     },
     {
-      "id": "fb7a18b6-6dea-4828-a3b0-74ea8be2e146",
+      "id": "97968f08-63b8-4e33-bb76-dbad2492de7b",
       "items": [
         {
-          "goodsId": "ceb41f08-21fa-4caa-8b7d-0a626857853a",
+          "goodsId": "f7903720-3b16-4759-96db-e9c9ea1751d3",
           "barcode": "6901028196463",
           "name": "中华香烟 软包",
           "price": 65,
@@ -938,13 +938,13 @@
       ],
       "totalQty": 1,
       "totalAmount": 65,
-      "createdAt": 1778106835586
+      "createdAt": 1778109366668
     },
     {
-      "id": "00b66983-5fd7-496f-933c-649d03f2a4b1",
+      "id": "3a7a45cc-ccf6-485d-be24-51cd79e3a657",
       "items": [
         {
-          "goodsId": "3c9ac303-b4aa-48ad-9181-600955e0ec22",
+          "goodsId": "2703a3ec-7bf9-404b-a151-5e96677d6a4e",
           "barcode": "6901939610148",
           "name": "双汇火腿肠 40g",
           "price": 2.5,
@@ -953,13 +953,13 @@
       ],
       "totalQty": 2,
       "totalAmount": 5,
-      "createdAt": 1778092435586
+      "createdAt": 1778094966668
     },
     {
-      "id": "5fc397c3-b18a-466b-a5bb-d1f178e19050",
+      "id": "f8c51846-7c37-49f2-aa90-fe6d070faf8a",
       "items": [
         {
-          "goodsId": "7cde3780-53bf-462a-85f9-d387dff70c56",
+          "goodsId": "b70c493a-f724-44ba-a279-e8c0a96dc192",
           "barcode": "6972183820126",
           "name": "清风抽纸 3包",
           "price": 9.9,
@@ -968,13 +968,13 @@
       ],
       "totalQty": 1,
       "totalAmount": 9.9,
-      "createdAt": 1778081635586
+      "createdAt": 1778084166668
     },
     {
-      "id": "a03d6d4d-f13f-45d9-93a1-ab3b7d12039b",
+      "id": "df910820-1510-4822-bb01-af6f784ea5e1",
       "items": [
         {
-          "goodsId": "5ee60e21-a06d-4784-a4e9-c58017bf88f6",
+          "goodsId": "696804b2-c0fa-4df6-92a3-298be6d0c565",
           "barcode": "6921168509256",
           "name": "农夫山泉 550ml",
           "price": 2,
@@ -983,13 +983,13 @@
       ],
       "totalQty": 4,
       "totalAmount": 8,
-      "createdAt": 1778070835586
+      "createdAt": 1778073366668
     },
     {
-      "id": "397924cf-ba62-4179-b8b1-103f4672285f",
+      "id": "0bde9aba-0799-4bea-9454-77164cfdbedd",
       "items": [
         {
-          "goodsId": "21d082f6-7646-4048-b2e0-1f3d559fa520",
+          "goodsId": "1765bfca-608b-4195-8fa0-a277eb448ebe",
           "barcode": "6901234567891",
           "name": "舒肤佳香皂 115g",
           "price": 5.5,
@@ -998,13 +998,13 @@
       ],
       "totalQty": 1,
       "totalAmount": 5.5,
-      "createdAt": 1778013235586
+      "createdAt": 1778015766668
     },
     {
-      "id": "ce81a5c9-4996-48d4-88c2-10596adebdb1",
+      "id": "581d7158-73a2-4998-b0f8-3916d2c5ff2b",
       "items": [
         {
-          "goodsId": "c37e27ce-3717-4311-8136-fe5e30f9d67c",
+          "goodsId": "164db0ee-5eba-4036-b4a5-43ae53e4ceb5",
           "barcode": "6920152467899",
           "name": "康师傅红烧牛肉面",
           "price": 4.5,
@@ -1013,13 +1013,13 @@
       ],
       "totalQty": 4,
       "totalAmount": 18,
-      "createdAt": 1777998835586
+      "createdAt": 1778001366668
     },
     {
-      "id": "8d3c29f5-b4c9-480d-a9df-09533fa3d2b8",
+      "id": "e79fd0eb-86f2-47ff-b2af-dbd03d6f3017",
       "items": [
         {
-          "goodsId": "fa80a1b4-0fac-429d-847d-0d4bf9715cbe",
+          "goodsId": "4b622f88-6df0-4ffb-b73e-585c1fbae0d8",
           "barcode": "6902952888888",
           "name": "飞天茅台 53度 500ml",
           "price": 1499,
@@ -1028,13 +1028,13 @@
       ],
       "totalQty": 1,
       "totalAmount": 1499,
-      "createdAt": 1777937635586
+      "createdAt": 1777940166668
     },
     {
-      "id": "b88965ac-ea55-4996-90da-62c704021a18",
+      "id": "d551a053-8dbe-45d0-835b-042e782a4942",
       "items": [
         {
-          "goodsId": "99f97d86-85be-42de-b57e-0a6bb3022976",
+          "goodsId": "1deadda0-965a-41fe-a037-3c0090fe4991",
           "barcode": "6901668936422",
           "name": "奥利奥原味 116g",
           "price": 8.9,
@@ -1043,13 +1043,13 @@
       ],
       "totalQty": 1,
       "totalAmount": 8.9,
-      "createdAt": 1777916035586
+      "createdAt": 1777918566668
     },
     {
-      "id": "e6b78dbf-8bca-4a89-ab69-ce325594397c",
+      "id": "ade1bc40-3d0a-4ebd-982b-78e923b00835",
       "items": [
         {
-          "goodsId": "5ee60e21-a06d-4784-a4e9-c58017bf88f6",
+          "goodsId": "696804b2-c0fa-4df6-92a3-298be6d0c565",
           "barcode": "6921168509256",
           "name": "农夫山泉 550ml",
           "price": 2,
@@ -1058,20 +1058,20 @@
       ],
       "totalQty": 6,
       "totalAmount": 12,
-      "createdAt": 1777905235586
+      "createdAt": 1777907766668
     },
     {
-      "id": "a4f5241a-5140-4b5e-88d4-054e25b35a96",
+      "id": "caea8a69-8c49-4df7-a41b-298e1a41314d",
       "items": [
         {
-          "goodsId": "5ee60e21-a06d-4784-a4e9-c58017bf88f6",
+          "goodsId": "696804b2-c0fa-4df6-92a3-298be6d0c565",
           "barcode": "6921168509256",
           "name": "农夫山泉 550ml",
           "price": 2,
           "quantity": 2
         },
         {
-          "goodsId": "ba8f5013-141a-4e58-9fe5-938f14bb8f88",
+          "goodsId": "dd84e414-cadd-4a4d-83c3-872d3eead8c8",
           "barcode": "6901939621298",
           "name": "可口可乐 330ml",
           "price": 3.5,
@@ -1080,13 +1080,13 @@
       ],
       "totalQty": 3,
       "totalAmount": 7.5,
-      "createdAt": 1777901635586
+      "createdAt": 1777904166668
     },
     {
-      "id": "3e01aebb-3263-4ca4-a0b3-ae212052dc78",
+      "id": "69a746f8-1692-48e0-9ee5-e5f5f480e6bd",
       "items": [
         {
-          "goodsId": "ceb41f08-21fa-4caa-8b7d-0a626857853a",
+          "goodsId": "f7903720-3b16-4759-96db-e9c9ea1751d3",
           "barcode": "6901028196463",
           "name": "中华香烟 软包",
           "price": 65,
@@ -1095,13 +1095,13 @@
       ],
       "totalQty": 2,
       "totalAmount": 130,
-      "createdAt": 1777847635586
+      "createdAt": 1777850166668
     },
     {
-      "id": "775c75b9-65e7-4262-a44a-5df96da93f1d",
+      "id": "945b9448-1956-4f13-816e-cc5d83172616",
       "items": [
         {
-          "goodsId": "c37e27ce-3717-4311-8136-fe5e30f9d67c",
+          "goodsId": "164db0ee-5eba-4036-b4a5-43ae53e4ceb5",
           "barcode": "6920152467899",
           "name": "康师傅红烧牛肉面",
           "price": 4.5,
@@ -1110,13 +1110,13 @@
       ],
       "totalQty": 3,
       "totalAmount": 13.5,
-      "createdAt": 1777826035586
+      "createdAt": 1777828566668
     },
     {
-      "id": "0ef5d22f-a6f3-44e5-9f68-22af624154a6",
+      "id": "3a5d2d19-2234-41af-8c77-f8e155374e15",
       "items": [
         {
-          "goodsId": "21d082f6-7646-4048-b2e0-1f3d559fa520",
+          "goodsId": "1765bfca-608b-4195-8fa0-a277eb448ebe",
           "barcode": "6901234567891",
           "name": "舒肤佳香皂 115g",
           "price": 5.5,
@@ -1125,13 +1125,13 @@
       ],
       "totalQty": 1,
       "totalAmount": 5.5,
-      "createdAt": 1777754035586
+      "createdAt": 1777756566668
     },
     {
-      "id": "64d6ec47-7c82-415c-afc5-c8aaeaa59876",
+      "id": "3ee5f542-5c95-4cac-afd6-2798f4f5f348",
       "items": [
         {
-          "goodsId": "5ee60e21-a06d-4784-a4e9-c58017bf88f6",
+          "goodsId": "696804b2-c0fa-4df6-92a3-298be6d0c565",
           "barcode": "6921168509256",
           "name": "农夫山泉 550ml",
           "price": 2,
@@ -1140,13 +1140,13 @@
       ],
       "totalQty": 4,
       "totalAmount": 8,
-      "createdAt": 1777721635586
+      "createdAt": 1777724166668
     },
     {
-      "id": "3be61ea7-adb1-413a-909b-609e35095274",
+      "id": "02038318-cf7c-466f-a750-7523a384a756",
       "items": [
         {
-          "goodsId": "c37e27ce-3717-4311-8136-fe5e30f9d67c",
+          "goodsId": "164db0ee-5eba-4036-b4a5-43ae53e4ceb5",
           "barcode": "6920152467899",
           "name": "康师傅红烧牛肉面",
           "price": 4.5,
@@ -1155,20 +1155,20 @@
       ],
       "totalQty": 2,
       "totalAmount": 9,
-      "createdAt": 1777653235586
+      "createdAt": 1777655766668
     },
     {
-      "id": "0f2d17df-74d5-4aac-8afd-d3d67bacf98c",
+      "id": "03eec09a-b57d-4ccf-8fd4-4da346f4fa00",
       "items": [
         {
-          "goodsId": "5ee60e21-a06d-4784-a4e9-c58017bf88f6",
+          "goodsId": "696804b2-c0fa-4df6-92a3-298be6d0c565",
           "barcode": "6921168509256",
           "name": "农夫山泉 550ml",
           "price": 2,
           "quantity": 2
         },
         {
-          "goodsId": "ba8f5013-141a-4e58-9fe5-938f14bb8f88",
+          "goodsId": "dd84e414-cadd-4a4d-83c3-872d3eead8c8",
           "barcode": "6901939621298",
           "name": "可口可乐 330ml",
           "price": 3.5,
@@ -1177,13 +1177,13 @@
       ],
       "totalQty": 4,
       "totalAmount": 11,
-      "createdAt": 1777642435586
+      "createdAt": 1777644966668
     },
     {
-      "id": "4d552e91-1a18-4f5d-81d9-0e33a7b2e40d",
+      "id": "c6139219-5e2b-4e7e-a589-c2c0b9f4dbd8",
       "items": [
         {
-          "goodsId": "ceb41f08-21fa-4caa-8b7d-0a626857853a",
+          "goodsId": "f7903720-3b16-4759-96db-e9c9ea1751d3",
           "barcode": "6901028196463",
           "name": "中华香烟 软包",
           "price": 65,
@@ -1192,13 +1192,13 @@
       ],
       "totalQty": 1,
       "totalAmount": 65,
-      "createdAt": 1777588435586
+      "createdAt": 1777590966668
     },
     {
-      "id": "7512ce8d-fa10-4da9-82a1-fc93b413634f",
+      "id": "4ef98f68-73bd-450b-a5e2-c26f9f434e22",
       "items": [
         {
-          "goodsId": "5ee60e21-a06d-4784-a4e9-c58017bf88f6",
+          "goodsId": "696804b2-c0fa-4df6-92a3-298be6d0c565",
           "barcode": "6921168509256",
           "name": "农夫山泉 550ml",
           "price": 2,
@@ -1207,13 +1207,13 @@
       ],
       "totalQty": 6,
       "totalAmount": 12,
-      "createdAt": 1777556035586
+      "createdAt": 1777558566668
     },
     {
-      "id": "5659cddb-6e3a-40b3-9639-0fc30816271b",
+      "id": "b5d21671-6b78-4afa-a2ce-2c44fc221eea",
       "items": [
         {
-          "goodsId": "21d082f6-7646-4048-b2e0-1f3d559fa520",
+          "goodsId": "1765bfca-608b-4195-8fa0-a277eb448ebe",
           "barcode": "6901234567891",
           "name": "舒肤佳香皂 115g",
           "price": 5.5,
@@ -1222,13 +1222,13 @@
       ],
       "totalQty": 1,
       "totalAmount": 5.5,
-      "createdAt": 1777494835586
+      "createdAt": 1777497366668
     },
     {
-      "id": "bdd6f88f-c6bc-4456-94b2-72a2c7aa837f",
+      "id": "bee3cb15-b54b-4b4f-8c72-345df0692900",
       "items": [
         {
-          "goodsId": "c37e27ce-3717-4311-8136-fe5e30f9d67c",
+          "goodsId": "164db0ee-5eba-4036-b4a5-43ae53e4ceb5",
           "barcode": "6920152467899",
           "name": "康师傅红烧牛肉面",
           "price": 4.5,
@@ -1237,13 +1237,13 @@
       ],
       "totalQty": 4,
       "totalAmount": 18,
-      "createdAt": 1777480435586
+      "createdAt": 1777482966668
     },
     {
-      "id": "9efc670a-32dc-4adf-bfa0-346fedc13678",
+      "id": "f3cd4ba8-d9fc-4fe7-a018-7fd4dac491d5",
       "items": [
         {
-          "goodsId": "5ee60e21-a06d-4784-a4e9-c58017bf88f6",
+          "goodsId": "696804b2-c0fa-4df6-92a3-298be6d0c565",
           "barcode": "6921168509256",
           "name": "农夫山泉 550ml",
           "price": 2,
@@ -1252,20 +1252,20 @@
       ],
       "totalQty": 4,
       "totalAmount": 8,
-      "createdAt": 1777390435586
+      "createdAt": 1777392966668
     },
     {
-      "id": "1f564b7e-1503-4b5a-b01c-d768689d7f9e",
+      "id": "0659f210-dd27-4285-a272-e1476ce62cc2",
       "items": [
         {
-          "goodsId": "5ee60e21-a06d-4784-a4e9-c58017bf88f6",
+          "goodsId": "696804b2-c0fa-4df6-92a3-298be6d0c565",
           "barcode": "6921168509256",
           "name": "农夫山泉 550ml",
           "price": 2,
           "quantity": 2
         },
         {
-          "goodsId": "ba8f5013-141a-4e58-9fe5-938f14bb8f88",
+          "goodsId": "dd84e414-cadd-4a4d-83c3-872d3eead8c8",
           "barcode": "6901939621298",
           "name": "可口可乐 330ml",
           "price": 3.5,
@@ -1274,13 +1274,13 @@
       ],
       "totalQty": 3,
       "totalAmount": 7.5,
-      "createdAt": 1777383235586
+      "createdAt": 1777385766668
     },
     {
-      "id": "9eebaaf3-2690-4d9c-92cb-17ca5071671d",
+      "id": "5322444f-5022-454b-8288-fcefaec68435",
       "items": [
         {
-          "goodsId": "c37e27ce-3717-4311-8136-fe5e30f9d67c",
+          "goodsId": "164db0ee-5eba-4036-b4a5-43ae53e4ceb5",
           "barcode": "6920152467899",
           "name": "康师傅红烧牛肉面",
           "price": 4.5,
@@ -1289,13 +1289,13 @@
       ],
       "totalQty": 3,
       "totalAmount": 13.5,
-      "createdAt": 1777307635586
+      "createdAt": 1777310166668
     },
     {
-      "id": "8c4e11e7-b1ba-4713-a8ad-b1c0339a116f",
+      "id": "48b1fd4d-7fbf-4fe3-9b8b-fd44e220227c",
       "items": [
         {
-          "goodsId": "5ee60e21-a06d-4784-a4e9-c58017bf88f6",
+          "goodsId": "696804b2-c0fa-4df6-92a3-298be6d0c565",
           "barcode": "6921168509256",
           "name": "农夫山泉 550ml",
           "price": 2,
@@ -1304,13 +1304,13 @@
       ],
       "totalQty": 6,
       "totalAmount": 12,
-      "createdAt": 1777206835586
+      "createdAt": 1777209366668
     },
     {
-      "id": "5ec28fd7-58fa-44e2-9c81-7db30e6a9325",
+      "id": "f61713f4-476b-4547-a1de-0444d6e58ca7",
       "items": [
         {
-          "goodsId": "d801ddf2-2190-4d11-a9ca-7bdd152c5294",
+          "goodsId": "10e26909-f134-4369-8ec4-1ccd46b8907e",
           "barcode": "6901234567892",
           "name": "老派苏打饼干 400g",
           "price": 6.5,
@@ -1319,12 +1319,12 @@
       ],
       "totalQty": 2,
       "totalAmount": 13,
-      "createdAt": 1772980435586
+      "createdAt": 1772982966668
     }
   ],
   "logs": [],
   "_demo": {
     "note": "演示数据：数量榜看矿泉水/方便面，金额榜看茅台/香烟，补货看矿泉水/方便面/香皂，保质期看苏打饼干/进口巧克力",
-    "generatedAt": "2026-05-22T16:33:55.586Z"
+    "generatedAt": "2026-05-22T17:16:06.668Z"
   }
 }

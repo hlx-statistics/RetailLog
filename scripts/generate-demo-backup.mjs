@@ -287,4 +287,4 @@ writeFileSync(outPath, JSON.stringify(backup, null, 2), 'utf8')
 
 console.log(`已生成 ${outPath}`)
 console.log(`商品 ${goodsOut.length} 种，销售单 ${sales.length} 笔`)
-console.log('在 App「我的」页点击「加载演示数据」即可查看经营概览效果')
+console.log('npm run dev 时每次启动会自动导入；正式/APK 构建不会打包此文件')
