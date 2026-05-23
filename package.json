@@ -27,7 +27,8 @@
     "cap:run:android": "npm run cap:sync && npx cap run android",
     "cap:run:android:debug": "npm run cap:sync:debug && npx cap run android",
     "cap:apk:release": "npm run cap:sync && cd android && gradlew.bat assembleRelease",
-    "cap:apk:debug": "npm run cap:sync:debug && cd android && gradlew.bat assembleDebug"
+    "cap:apk:debug": "npm run cap:sync:debug && cd android && gradlew.bat assembleDebug",
+    "generate:icons": "python scripts/generate-app-icons.py"
   },
   "dependencies": {
     "@capacitor/android": "^8.3.4",
