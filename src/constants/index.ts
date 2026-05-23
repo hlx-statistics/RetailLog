@@ -1,7 +1,7 @@
 export const DB_NAME = 'RuralKeeperDB'
 export const DB_VERSION = 1
 
-/** dev 或 capacitor-debug 构建：注入完整演示数据；正式 APK 仅空库时写入参考库三条种子 */
+/** dev 或 VITE_USE_DEMO_DATA=true：空库时注入完整演示数据；否则仅三条种子 */
 export const USE_DEMO_DATA =
   import.meta.env.DEV || import.meta.env.VITE_USE_DEMO_DATA === 'true'
 

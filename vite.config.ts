@@ -1,11 +1,11 @@
 import fs from 'node:fs'
 import path from 'node:path'
-import { defineConfig } from 'vite'
+import { defineConfig, loadEnv } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import { VitePWA } from 'vite-plugin-pwa'
 import { fileURLToPath, URL } from 'node:url'
 
-/** 正式构建产物不包含演示备份，减小 APK / PWA 体积（debug 同步保留） */
+/** VITE_USE_DEMO_DATA=true 时保留 demo-backup.json；否则从 dist 移除以减小体积 */
 function excludeDemoBackupFromDist(skip: boolean) {
   return {
     name: 'exclude-demo-backup-from-dist',
@@ -23,8 +23,12 @@ function excludeDemoBackupFromDist(skip: boolean) {
 }
 
 export default defineConfig(({ mode }) => {
+  const env = loadEnv(mode, process.cwd(), '')
   const forNative = mode === 'capacitor' || mode === 'capacitor-debug'
-  const useDemoData = mode === 'capacitor-debug'
+  /** dev / capacitor-debug / production(PWA) / release 由 env 控制是否保留 demo-backup.json */
+  const useDemoData =
+    mode === 'capacitor-debug' ||
+    env.VITE_USE_DEMO_DATA === 'true'
 
   return {
     base: forNative ? './' : '/',

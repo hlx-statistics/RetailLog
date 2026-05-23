@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
+    "build:release": "vue-tsc -b && vite build --mode release",
     "prebuild": "node -e \"const fs=require('fs');const p='public/barcode-ref.jsonl';if(!fs.existsSync(p)){console.error('请先运行: npm run build:barcode-ref');process.exit(1)}\"",
     "build:capacitor": "vue-tsc -b && vite build --mode capacitor",
     "build:capacitor:debug": "vue-tsc -b && vite build --mode capacitor-debug",

@@ -9,6 +9,8 @@ dev-dist/
 .env
 .env.*
 !.env.example
+!.env.production
+!.env.release
 *.local
 
 # --- 日志与系统 ---
